@@ -1,0 +1,189 @@
+
+/* Contact form */
+#contact-form {
+	display:block; 
+	position:relative;
+	margin:7px 0 0 0;
+}
+#contact-form label {
+	display:block; 
+	min-height:40px;
+	position:relative;
+	overflow:hidden;
+}
+
+#contact-form input {
+	display:block;
+	background:#fff;
+	outline:none;
+	margin:0;
+	font-size:14px;
+	color:#000;
+	border:1px #bbbbbb solid;
+	padding:9px 20px 10px 20px;
+	height:17px;
+	width:370px;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow:none !important;
+}
+#contact-form textarea {
+	display:block;
+	background:#fff;
+	outline:none;
+	margin:0;
+	font-size:14px;
+	color:#000;
+	border:1px #bbbbbb solid;
+	padding:9px 20px 10px 20px;
+	height:190px;
+	width:370px;
+	font-family: 'Open Sans', sans-serif;
+	overflow:auto;
+	resize:vertical;
+}
+#contact-form .btns {
+	padding:15px 0 20px 0;
+	overflow:hidden;
+	text-align:right;
+}
+#contact-form .btns a {
+		margin:0 0 0 10px;
+}
+#contact-form input[type='submit']{
+	display:inline-block;
+	font-size:18px;
+	line-height:22px;
+	color:#fff;
+	text-decoration:none;
+	background:#D0402F;
+	padding:7px 20px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	height:36px;
+	width:90px;
+	border:none;
+	cursor:pointer;cursor:hand;
+}
+#contact-form input[type='submit']:hover {
+		text-decoration:none;
+		background:#BC3323;
+		cursor:pointer;cursor:hand;
+}
+
+#login-form {
+	padding:0 0 5px 0;
+}
+input[type='text'], #login-form input[type='password'] {
+	display:block;
+	outline:none;
+	margin:0 0 4px 0;
+	font-size:14px;
+	color:#000;
+	border:1px #bbbbbb solid;
+	padding:9px 20px 10px 20px;
+	height:17px;
+	font-family: 'Open Sans', sans-serif;
+}
+col-1 {
+	float:left;
+	width:136px;
+	text-align:right;
+	padding:10px 0 0 0;
+}
+	.col-1 strong {
+		font-weight:normal;
+		display:inline-block;
+		margin:-2px 0 0 0;
+	}
+.col-2 {
+	float:left;
+	width:124px;
+	text-align:right;
+}
+input[type='submit']{
+	display:inline-block;
+	font-size:18px;
+	line-height:22px;
+	color:#fff;
+	text-decoration:none;
+	background:#D0402F;
+	padding:7px 20px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	height:36px;
+	border:none;
+	cursor:pointer;cursor:hand;
+}
+input[type='submit']:hover {
+		text-decoration:none;
+		background:#BC3323;
+		cursor:pointer;cursor:hand;
+}
+
+/*Register Form */
+
+#reg-form {
+	padding:0 0 5px 0;
+}
+#reg-form input[type='text'], #reg-form input[type='password'] {
+	display:block;
+	outline:none;
+	margin:0 0 4px 0;
+	font-size:14px;
+	color:#000;
+	border:1px #bbbbbb solid;
+	padding:9px 20px 10px 20px;
+	height:17px;
+	width:450px;
+	font-family: 'Open Sans', sans-serif;
+}
+#reg-form textarea {
+	display:block;
+	outline:none;
+	margin:0 0 4px 0;
+	font-size:14px;
+	color:#000;
+	border:1px #bbbbbb solid;
+	padding:9px 20px 10px 20px;
+	height:90px;
+	width:450px;
+	font-family: 'Open Sans', sans-serif;
+	overflow:auto;
+	resize:vertical;
+}
+.reg-form-col-1 {
+	float:left;
+	width:136px;
+	text-align:right;
+	padding:10px 0 0 0;
+}
+	.reg-form-col-1 strong {
+		font-weight:normal;
+		display:inline-block;
+		margin:-2px 0 0 0;
+	}
+.reg-form-col-2 {
+	float:left;
+	width:124px;
+	text-align:right;
+}
+#reg-form input[type='submit']{
+	display:inline-block;
+	font-size:18px;
+	line-height:22px;
+	color:#fff;
+	text-decoration:none;
+	background:#D0402F;
+	padding:7px 20px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	height:36px;
+	width:90px;
+	border:none;
+	cursor:pointer;cursor:hand;
+}
+#reg-form input[type='submit']:hover {
+		text-decoration:none;
+		background:#BC3323;
+		cursor:pointer;cursor:hand;
+}
